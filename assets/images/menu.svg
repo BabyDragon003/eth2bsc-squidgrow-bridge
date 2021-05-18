@@ -3,12 +3,6 @@
 <rect x="42" y="17" width="10" height="42" transform="rotate(90 42 17)" fill="url(#pattern1)"/>
 <rect x="42" y="34" width="10" height="42" transform="rotate(90 42 34)" fill="url(#pattern2)"/>
 <defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_8_455" transform="matrix(0.0051597 0 0 0.0012285 -0.268796 0)"/>
-</pattern>
-<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_8_455" transform="matrix(0.0051597 0 0 0.0012285 -0.268796 0)"/>
-</pattern>
 <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_8_455" transform="matrix(0.0051597 0 0 0.0012285 -0.268796 0)"/>
 </pattern>
