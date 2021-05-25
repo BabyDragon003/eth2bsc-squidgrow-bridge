@@ -1,13 +1,8 @@
+import { toast } from "react-toastify";
 import Link from "next/link";
 
 export const whitelist = [
   "0x533d171e424e526dae139a5820ebb2a05ab75c84",
-  "0x754a554538edd858b731b19e670e9f8e76e668d7",
-  "0x7febabe3b7dfdc4356270657f7c2deda4abdcf6a",
-  "0x84dc9ee8ee8b193acfd5ec1c44453e05fc942d61",
-  "0xaf2f888ab675179d91250f8c5d7bb2cf9a8dbdbe",
-  "0xa9c09cac13f4275333d9afa2e0e93129f698082d",
-  "0x89eb15bc28a1190271b366e130d4da9a1c48cc94",
   "0x4c92a80a61cec7433ba97f01ef43e1a9a93368ba",
   "0x6477e738a46e989db24236a406148071c480e74c",
   "0x2ffd98e4063f4e4fccb3a657805372b70a03afba",
