@@ -1,4 +1,3 @@
-import { ConnectWalletButton } from './ConnectButton';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import CliamTape from '@/assets/images/CollectWalletButton.svg';
 export const ConnectWalletBtn = ({ disabled, onClick, title }) => {
