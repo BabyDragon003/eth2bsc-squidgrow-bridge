@@ -1,4 +1,3 @@
-"use client";
 import React, { useRef } from "react";
 import Container from "../Container";
 import ConnectWallect from "../ConnectWallect";
