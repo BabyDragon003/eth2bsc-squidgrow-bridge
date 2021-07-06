@@ -3,12 +3,6 @@ import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import erc20ABI from "../../utils/erc20.json";
 
-import Container from "@/components/Container";
-import Image from "next/image";
-import SquideGrow from "@/assets/images/brioge.png";
-import multiChain from "@/assets/images/multichain.svg";
-import heroImg from "@/assets/images/hero.png";
-
 import { customToastMessage, customWiteToast } from "@/utils/whitelist";
 import { useAccount, useBalance, useNetwork } from "wagmi";
 import { ConnectWalletBtn, NavButton } from "components/Button.jsx";
