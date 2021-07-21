@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import SquidGrow from "../../assets/images/SquidGrow.svg";
@@ -7,17 +8,6 @@ import {
   FaYoutube,
   FaTiktok,
   FaTwitter,
-} from "react-icons/fa";
-const Footer = () => {
-  const links = [
-    {
-      href: "https://t.me/squidgrowportalentry",
-      label: <FaTelegramPlane size={25} />,
-    },
-    {
-      href: "https://discord.gg/HgsgryRpwB",
-      label: <FaDiscord size={25} />,
-    },
     {
       href: "https://www.youtube.com/channel/UCh-gkjDnFRjX1wMFUpzKdUw",
       label: <FaYoutube size={25} />,
