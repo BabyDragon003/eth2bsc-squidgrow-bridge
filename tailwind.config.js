@@ -18,27 +18,6 @@ module.exports = {
         sm: [
           '13px',
           {
-            lineHeight: '21px',
-            letterSpacing: '-0.01em',
-            fontWeight: '400',
-          },
-        ],
-        xs: [
-          '11px',
-          {
-            lineHeight: '21px',
-            letterSpacing: '-0.01em',
-            fontWeight: '400',
-          },
-        ],
-
-        md: [
-          '18px',
-          {
-            lineHeight: '22px',
-            letterSpacing: '-0.01em',
-            fontWeight: '400',
-          },
         ],
         lg: [
           '19px',

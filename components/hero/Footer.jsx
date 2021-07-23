@@ -13,6 +13,22 @@ const Footer = () => {
   const links = [
     {
       href: "https://t.me/squidgrowportalentry",
+      label: <FaTelegramPlane size={25} />,
+    },
+    {
+      href: "https://discord.gg/HgsgryRpwB",
+      label: <FaDiscord size={25} />,
+    },
+    {
+      href: "https://www.youtube.com/channel/UCh-gkjDnFRjX1wMFUpzKdUw",
+      label: <FaYoutube size={25} />,
+    },
+    {
+      href: "https://www.tiktok.com/@squidgrow",
+      label: <FaTiktok size={25} />,
+    },
+    {
+      href: "https://twitter.com/Squid_Grow",
       label: <FaTwitter size={25} />,
     },
   ];
