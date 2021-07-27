@@ -1,13 +1,8 @@
+"use client";
 import Navbar from "@/components/navbar/Navbar";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
 import MobileMenu from "@/components/navbar/MobileMenu";
-import "@rainbow-me/rainbowkit/styles.css";
-import {
-  RainbowKitProvider,
-  darkTheme,
-  connectorsForWallets,
-} from "@rainbow-me/rainbowkit";
 import { configureChains, createConfig, WagmiConfig } from "wagmi";
 import TrustIcon from "../assets/images/trust1.png";
 import { alchemyProvider } from "wagmi/providers/alchemy";
