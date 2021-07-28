@@ -8,17 +8,6 @@ import Dropdown from "../../assets/images/Dropdown.svg";
 
 import Link from "next/link";
 import Image from "next/image";
-import { NavButton, NavigationBarBtn } from "../Button";
-
-const Navbar = () => {
-  return (
-    <nav className="navbar hidden lg:block">
-      <Container>
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-5">
-            <div className="logo">
-              <Link href={"/"}>
-                <Image src={Logo} alt="SRLOGO" />
               </Link>
             </div>
             <ul className=" flex items-center gap-6">
