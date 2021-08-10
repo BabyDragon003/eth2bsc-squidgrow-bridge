@@ -1,13 +1,8 @@
+"use client";
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../assets/images/SRLOGO.svg";
-import menu from "../../assets/images/menu.svg";
-import { RxCross2 } from "react-icons/rx";
-import { NavButton, NavigationBarBtn } from "../Button";
-const MobileMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
   const openNavbar = () => {
     setIsOpen(!isOpen);
   };
