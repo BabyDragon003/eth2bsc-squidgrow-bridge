@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import erc20ABI from "../../utils/erc20.json";
@@ -12,22 +13,6 @@ import { customToastMessage, customWiteToast } from "@/utils/whitelist";
 import { useAccount, useBalance, useNetwork } from "wagmi";
 import { ConnectWalletBtn, NavButton } from "components/Button.jsx";
 
-import { useEthersSigner } from "../../components/wagmi/provider";
-
-const Support = () => {
-  const [balance, setBalance] = useState("0");
-  const [hash, setHash] = useState("");
-  const [success, setSuccess] = useState("");
-  const { chain } = useNetwork();
-  const { address, isConnected } = useAccount();
-
-  const providerEth = new ethers.providers.JsonRpcProvider(
-    "https://billowing-billowing-wind.quiknode.pro/2232643a6f244d96227b6987ab833ecd1ed7ce2a/"
-  );
-
-  const providerBSC = new ethers.providers.JsonRpcProvider(
-    "https://rough-neat-resonance.bsc.quiknode.pro/14efd2ee86a7d13a8e706c752209c51749a14165/"
-  );
 
   const { data } = useBalance({
     address: isConnected ? address : null,

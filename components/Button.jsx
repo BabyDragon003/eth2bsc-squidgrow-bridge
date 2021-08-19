@@ -1,3 +1,4 @@
+import { ConnectWalletButton } from './ConnectButton';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import CliamTape from '@/assets/images/CollectWalletButton.svg';
 export const ConnectWalletBtn = ({ disabled, onClick, title }) => {
@@ -12,22 +13,6 @@ export const ConnectWalletBtn = ({ disabled, onClick, title }) => {
           {title}
         </span>
       </button>
-    </div>
-  );
-};
-
-import Image from 'next/image';
-
-export const NavButton = ({ isActive }) => {
-  return (
-    <div className="relative flex flex-col justify-center items-center h-full w-full pink-tape">
-      <div className="!font-medium text-lg md:text-xl">
-        <ConnectWalletButton isActive={isActive} />
-      </div>
-    </div>
-  );
-};
-export const NavigationBarBtn = ({ isActive }) => {
   return <ConnectButton />;
 };
 export const ClaimBtn = () => {
