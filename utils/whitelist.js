@@ -1,4 +1,3 @@
-import { toast } from "react-toastify";
 import Link from "next/link";
 
 export const whitelist = [
