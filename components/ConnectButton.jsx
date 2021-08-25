@@ -8,17 +8,6 @@ export const ConnectWalletButton = ({ isActive }) => {
         chain,
         openAccountModal,
         openChainModal,
-        openConnectModal,
-        authenticationStatus,
-        mounted,
-      }) => {
-        // Note: If yor app doesn't use authentication, you
-        // can remove all 'authenticationStatus' checks
-        const ready = mounted && authenticationStatus !== "loading";
-        const connected =
-          ready &&
-          account &&
-          chain &&
           (!authenticationStatus || authenticationStatus == "authenticated");
         return (
           <>
