@@ -8,26 +8,16 @@
         "internalType": "address",
         "name": "owner",
         "type": "address"
-        "type": "uint256"
-      }
-    ],
-    "name": "Approval",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": true,
-        "internalType": "address",
-        "name": "from",
-        "type": "address"
       },
       {
         "indexed": true,
         "internalType": "address",
-        "name": "to",
+        "name": "spender",
         "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
       },
       {
         "indexed": false,
