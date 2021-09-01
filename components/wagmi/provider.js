@@ -1,3 +1,4 @@
+import * as React from "react";
 import { useWalletClient } from "wagmi";
 import { providers } from "ethers";
 
