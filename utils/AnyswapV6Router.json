@@ -13,22 +13,6 @@
     "inputs": [
       {
         "indexed": true,
-        "internalType": "bytes32",
-        "name": "txhash",
-        "type": "bytes32"
-      },
-      {
-        "indexed": true,
-        "internalType": "address",
-        "name": "token",
-        "type": "address"
-      },
-      {
-        "indexed": true,
-        "internalType": "address",
-        "name": "to",
-        "type": "address"
-      },
       {
         "indexed": false,
         "internalType": "uint256",
