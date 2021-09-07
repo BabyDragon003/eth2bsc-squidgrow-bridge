@@ -1,13 +1,8 @@
+import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import SquidGrow from "../../assets/images/SquidGrow.svg";
 import {
-  FaTelegramPlane,
-  FaDiscord,
-  FaYoutube,
-  FaTiktok,
-  FaTwitter,
-} from "react-icons/fa";
 const Footer = () => {
   const links = [
     {
