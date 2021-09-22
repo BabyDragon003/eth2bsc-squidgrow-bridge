@@ -8,21 +8,36 @@ import {
   FaYoutube,
   FaTiktok,
   FaTwitter,
-} from "react-icons/fa";
-const Footer = () => {
-  const links = [
-    {
-      href: "https://t.me/squidgrowportalentry",
-      label: <FaTelegramPlane size={25} />,
-    },
-    {
-      href: "https://discord.gg/HgsgryRpwB",
-      label: <FaDiscord size={25} />,
-    },
     {
       href: "https://www.youtube.com/channel/UCh-gkjDnFRjX1wMFUpzKdUw",
       label: <FaYoutube size={25} />,
     },
+    {
+      href: "https://www.tiktok.com/@squidgrow",
+      label: <FaTiktok size={25} />,
+    },
+    {
+      href: "https://twitter.com/Squid_Grow",
+      label: <FaTwitter size={25} />,
+    },
+  ];
+
+  return (
+    <div className="basis-1/2 md:hidden">
+      <div>
+        <Image className=" block mx-auto" src={SquidGrow} alt="squidGrow" />
+        <p className=" text-base text-muted text-center w-[80%] mx-auto">
+          SquidGrow aspires to be the top utility meme coin on Binance Smart
+          Chain and Ethereum.
+        </p>
+        <footer className="">
+          <div className="py-12">
+            <div className=" flex items-center justify-center gap-7">
+              {links.map((link, key) => (
+                <div
+                  key={key}
+                  className=" w-[40px] h-[40px] bg-white flex justify-center items-center rounded-full text-black "
+                >
                   <Link href={link.href}>{link.label}</Link>
                 </div>
               ))}
