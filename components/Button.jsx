@@ -1,13 +1,8 @@
+import { ConnectWalletButton } from './ConnectButton';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import CliamTape from '@/assets/images/CollectWalletButton.svg';
 export const ConnectWalletBtn = ({ disabled, onClick, title }) => {
   return (
-    <div>
-      <button
-        disabled={disabled}
-        onClick={onClick}
-        className="w-full max-h-[90px] relative h-full flex flex-col justify-center items-center pink-tape"
-      >
         <span className=" !font-medium text-lg md:text-2xl z-30 w-full">
           {title}
         </span>
