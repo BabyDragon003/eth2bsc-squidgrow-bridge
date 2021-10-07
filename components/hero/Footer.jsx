@@ -8,16 +8,11 @@ import {
   FaYoutube,
   FaTiktok,
   FaTwitter,
+} from "react-icons/fa";
+const Footer = () => {
+  const links = [
     {
-      href: "https://www.youtube.com/channel/UCh-gkjDnFRjX1wMFUpzKdUw",
-      label: <FaYoutube size={25} />,
-    },
-    {
-      href: "https://www.tiktok.com/@squidgrow",
-      label: <FaTiktok size={25} />,
-    },
-    {
-      href: "https://twitter.com/Squid_Grow",
+      href: "https://t.me/squidgrowportalentry",
       label: <FaTwitter size={25} />,
     },
   ];
